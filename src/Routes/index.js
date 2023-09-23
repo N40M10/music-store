@@ -7,14 +7,14 @@ import NotFound from '@pages/NotFound'
 const Router = () => {
     return (
         <>
-            <BrowserRouter>
+{/*            <BrowserRouter>*/}
                 <Layout>
                     <Routes>
                         <Route path="/" element={<Home />}/>
                         <Route path="*" element={<NotFound />}/>
                     </Routes>
                 </Layout>
-            </BrowserRouter>
+{/*            </BrowserRouter>*/}
         </>
     )
 }
